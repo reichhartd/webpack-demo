@@ -4,7 +4,7 @@
     "description": "",
     "private": true,
     "scripts": {
-        "webpack": "webpack",
+        "webpack": "webpack --config webpack.config.js",
         "prettier": "prettier --write . --ignore-path ./.prettierignore"
     },
     "husky": {
